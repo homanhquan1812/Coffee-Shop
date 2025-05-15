@@ -41,7 +41,7 @@ const Home = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img src="./img/carousel6.jpg" className="d-block w-100" alt="carousel1" />
+                <img src="https://drinksang.com/cdn/shop/articles/my-project-3-1675958480937_631755b5-cedc-4d64-98b6-7558ef9f95a9_1000x.jpg?v=1675960209" className="d-block w-100" alt="carousel1" />
                 <div className="carousel-caption container">
                     <h1 style={{color: 'red', fontSize: '100px', fontWeight: 700}}>BAKERY</h1>
                     <p className="carousel-first" style={{fontSize: '20px', fontWeight: 700, background: 'white', borderRadius: '20px', border: '10px solid', borderImage: 'linear-gradient(45deg, red, blue) 10', borderImageSlice: 1}}>A delicious variety of sweet and savory pastries and donuts, freshly baked every day.</p>
@@ -116,7 +116,7 @@ const Home = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                <img src="./img/368393066_2092635904435757_2978394674549760427_n.jpg" className="d-block w-100 " alt="..." />
+                <img src="https://www.cekindo.com/wp-content/uploads/2023/02/coffee-shop-vn-scaled-1.jpg" className="d-block w-100 " alt="..." />
                 <div className="container carousel-caption">
                     <h1>Order Now</h1>
                     <p>Depending on the type of product, we can deliver it fresh,part-baked or frozen.</p>
@@ -124,7 +124,7 @@ const Home = () => {
                 </div>
                 </div>
                 <div className="carousel-item">
-                <img src="./img/371537875_646770300861892_8602497452080053974_n.jpg" className="d-block w-100" alt="..." />
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0f/42/be/the-first-floor.jpg?w=900&h=500&s=1" className="d-block w-100" alt="..." />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselCyber" data-bs-slide="prev">
