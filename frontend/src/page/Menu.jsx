@@ -154,23 +154,6 @@ const Menu = () => {
         <Header></Header>
         {/* FILLTER */}
         <section className="showcase section-padding page_Gallery">
-            <div className="container">
-            <div className="section-info">
-                <h2>Joy baked into every bite.</h2>
-                <p className="text-center">Enjoy fresh pastries, warm breads, crafted coffees, our signature cakes and more.A delicious variety of sweet and savory pastries and donuts, freshly baked every day.</p>
-                <input type="text" id="product-searchbar123" onKeyUp={filterProducts} placeholder="Search for preferred products." />
-            </div>
-            </div>
-            <div className="filters-button-group">
-            <button className="button is-checked active" data-filter="*">ALL</button>
-            <button className="button" data-filter=".BREAD">BREAD</button>
-            <button className="button" data-filter=".PASTRIES">PASTRIES</button>
-            <button className="button" data-filter=".CAKESLICES">CAKE SLICES</button>
-            <button className="button" data-filter=".CHEESECAKES">CHEESECAKES</button>
-            <button className="button" data-filter=".DRINKS">DRINKS</button>
-            <button className="button" data-filter=".ICECREAM">ICE CREAM</button>
-            </div>
-
             <div className="showcase__content row">
             {products && products.map((product) => (
                 product.type === "Bread" && (

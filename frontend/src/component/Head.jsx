@@ -9,13 +9,13 @@ class Head extends React.Component {
     return (
       <div className="application">
           <Helmet>
-              <title>Gà Nấm Cake Shop</title>
+              <title>Coffee Shop</title>
               <meta charSet="UTF-8" />
               <meta name="author" content="Ho Manh Quan" />
               <meta name="description" content="Gà Nấm Cake Shop" />
               <meta name="viewport" content="width=device-width, initial-scale=1.0" />
               <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-              <link rel="icon" href="../../img/logo.png" />
+              <link rel="icon" href="https://img.freepik.com/premium-vector/cafe-24-7-neon-signs-style-text-vector_118419-3865.jpg" />
               {/* Include Bootstrap for button styling */}
               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
               {/* Include jQuery */}
