@@ -294,7 +294,7 @@ const Menu = () => {
             ))}
             
             {products && products.map((product) => (
-                product.type === "Pastries" && (
+                product.type === "Coffee" && (
                     <div key={product.id} className="showcase__item PASTRIES" data-category="metalloid">
                     <div className="showcase__photo">
                     <img style={{height: '400px', width: '100%'}} src={product.photo} alt="" />
@@ -312,121 +312,6 @@ const Menu = () => {
                             <a>
                             </a></p>
                             <a>
-                            <input type="hidden" name="id" defaultValue={product.id} />
-                            <button type="submit" className="btn btn-danger" onClick={() => handleAddProduct(product.id)}>Add 1 to cart</button>
-                            </a>
-                        <p />
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                )
-            ))}
-
-            {products && products.map((product) => (
-                product.type === "Cake Slice" && (
-                    <div key={product.id} className="showcase__item CAKESLICES" data-category="post-transition">
-                    <div className="showcase__photo">
-                    <img style={{height: '400px', width: '100%'}} src={product.photo} alt="" />
-                    <div className="showcase__info">
-                        <div className="showcase__des">
-                        <h4>
-                            <a href={`/detail/${product.id}`}>{product.name}</a>
-                        </h4>
-                        <div>
-                          <small>Brand: {product.brand_name || 'Not specified'}</small>
-                        </div>
-                        Sold:<p className="demo" />
-                        <p>
-                            <a href="#"><button type="button" className="btn btn-primary">{product.price} VND</button></a>
-                            <a>
-                            </a></p><a>
-                            <input type="hidden" name="id" defaultValue={product.id} />
-                            <button type="submit" className="btn btn-danger" onClick={() => handleAddProduct(product.id)}>Add 1 to cart</button>
-                            </a>
-                        <p />
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                )
-            ))}
-            
-            {products && products.map((product) => (
-                product.type === "Cheesecake" && (
-                    <div key={product.id} className="showcase__item CHEESECAKES" data-category="post-transition">
-                    <div className="showcase__photo">
-                    <img style={{height: '400px', width: '100%'}} src={product.photo} alt="" />
-                    <div className="showcase__info">
-                        <div className="showcase__des">
-                        <h4>
-                            <a href={`/detail/${product.id}`}>{product.name}</a>
-                        </h4>
-                        <div>
-                          <small>Brand: {product.brand_name || 'Not specified'}</small>
-                        </div>
-                        Sold:<p className="demo" />
-                        <p>
-                            <a href="#"><button type="button" className="btn btn-primary">{product.price} VND</button></a>
-                            <a>
-                            </a></p><a>
-                            <input type="hidden" name="id" defaultValue={product.id} />
-                            <button type="submit" className="btn btn-danger" onClick={() => handleAddProduct(product.id)}>Add 1 to cart</button>
-                            </a>
-                        <p />
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                )
-            ))}
-
-            {products && products.map((product) => (
-                product.type === "Drinks" && (
-                    <div key={product.id} className="showcase__item DRINKS" data-category="transition">
-                    <div className="showcase__photo">
-                    <img style={{height: '400px', width: '100%'}} src={product.photo} alt="" />
-                    <div className="showcase__info">
-                        <div className="showcase__des">
-                        <h4>
-                            <a href={`/detail/${product.id}`}>{product.name}</a>
-                        </h4>
-                        <div>
-                          <small>Brand: {product.brand_name || 'Not specified'}</small>
-                        </div>
-                        Sold:<p className="demo" />
-                        <p>
-                            <a href="#"><button type="button" className="btn btn-primary">{product.price} VND</button></a>
-                            <a>
-                            </a></p><a>
-                            <input type="hidden" name="id" defaultValue={product.id} />
-                            <button type="submit" className="btn btn-danger" onClick={() => handleAddProduct(product.id)}>Add 1 to cart</button>
-                            </a>
-                        <p />
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                )
-            ))}
-            {products && products.map((product) => (
-                product.type === "Ice Cream" && (
-                    <div key={product.id} className="showcase__item ICECREAM" data-category="alkali">
-                    <div className="showcase__photo">
-                    <img style={{height: '400px', width: '100%'}} src={product.photo} alt="" />
-                    <div className="showcase__info">
-                        <div className="showcase__des">
-                        <h4>
-                            <a href={`/detail/${product.id}`}>{product.name}</a>
-                        </h4>
-                        <div>
-                          <small>Brand: {product.brand_name || 'Not specified'}</small>
-                        </div>
-                        Sold:<p className="demo" />
-                        <p>
-                            <a href="#"><button type="button" className="btn btn-primary">{product.price} VND</button></a>
-                            <a>
-                            </a></p><a>
                             <input type="hidden" name="id" defaultValue={product.id} />
                             <button type="submit" className="btn btn-danger" onClick={() => handleAddProduct(product.id)}>Add 1 to cart</button>
                             </a>
