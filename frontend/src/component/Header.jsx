@@ -71,7 +71,7 @@ export const Header = () => {
         <header className="contact_header">
             <nav className="navbar navbar-expand-lg navbarGaNam">
                 <div className="container header__content">
-                <img style={{width: '50px', height: '50px', marginRight: '20px'}} src="../../img/logo.png" />
+                <img style={{width: '50px', height: '50px', marginRight: '20px'}} src="https://img.freepik.com/premium-vector/cafe-24-7-neon-signs-style-text-vector_118419-3865.jpg" />
                 <a className="navbar-brand logo" href="home">COFFEE SHOP 24/7</a> 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#GaNamNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
