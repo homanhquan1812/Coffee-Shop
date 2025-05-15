@@ -43,8 +43,7 @@ const Home = () => {
                 <div className="carousel-item active">
                 <img src="https://drinksang.com/cdn/shop/articles/my-project-3-1675958480937_631755b5-cedc-4d64-98b6-7558ef9f95a9_1000x.jpg?v=1675960209" className="d-block w-100" alt="carousel1" />
                 <div className="carousel-caption container">
-                    <h1 style={{color: 'red', fontSize: '100px', fontWeight: 700}}>BAKERY</h1>
-                    <p className="carousel-first" style={{fontSize: '20px', fontWeight: 700, background: 'white', borderRadius: '20px', border: '10px solid', borderImage: 'linear-gradient(45deg, red, blue) 10', borderImageSlice: 1}}>A delicious variety of sweet and savory pastries and donuts, freshly baked every day.</p>
+                    <h1 style={{color: 'red', fontSize: '100px', fontWeight: 700}}>COFFEE SHOP</h1>
                     {/* <button class="btn button-pink">Read more<i class="fa fa-angle-double-right"></i></button> */}
                 </div>
                 </div>
